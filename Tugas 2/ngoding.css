@@ -1,0 +1,50 @@
+body{
+    color: #142d4c;
+    font-family: Garet, Montserrat Classic;
+    background-color: #fff;
+}
+
+.header
+{
+    background-color: #385170;
+    color : #ececec;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.konten
+{
+    margin-top: 2pc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.border
+{
+    color: #142d4c;
+    margin-top: 2pc;
+    margin: 1pc;
+    text-align: justify;
+    border: 3px solid;
+    border-color: #142d4c;
+    padding: 1%;
+    width: 20%;
+    height: 220px;
+    float: left;
+    background-color: #ececec;
+}
+
+.border h3 a:hover
+{
+    color: #385170
+}
+
+.border h3 a
+{
+    text-decoration: none;
+    color: #142d4c;
+}

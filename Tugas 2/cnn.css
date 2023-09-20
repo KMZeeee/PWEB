@@ -93,11 +93,11 @@ body{
 }
 
 .footer{
-    width: 85%;
+    width: 88%;
     margin: auto;
     line-height: 40px;
     background-color: #000;
     color: #fff;
-    padding-left: 2pc;
-    padding-right: 2pc;
+    padding-left: 1pc;
+    padding-right: 1pc;
 }
