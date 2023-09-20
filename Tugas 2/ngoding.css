@@ -26,14 +26,14 @@ body{
 .border
 {
     color: #142d4c;
-    margin-top: 2pc;
     margin: 1pc;
     text-align: justify;
     border: 3px solid;
     border-color: #142d4c;
-    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     width: 20%;
-    height: 220px;
+    height: 350px;
     float: left;
     background-color: #ececec;
 }
