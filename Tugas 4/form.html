@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <h2 id="header">FTEIC Student Form</h2>
+    <div class="border">
+        <form name="form" id= "form" onsubmit="return validate_form()">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <br><br>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" name="email" placeholder="Anonymous@email.com">
+            <br><br>
+            <label for="major">Major</label>
+            <br>
+            <select name="major" id="major">
+                <option value="0">Choose Major</option>
+                <option value="1">Electrical Engineering</option>
+                <option value="2">Informatics Engineering</option>
+                <option value="3">Information System</option>
+                <option value="4">Computer Engineering</option>
+                <option value="5">Biomedical Engineering</option>
+                <option value="6">Information Technology</option>
+                <option value="7">Telecommunication</option>
+                <option value="8">Digital Innovation</option>
+                <option value="9">Software Engineering</option>
+                <option value="10">Artificial Intelligence Engineering</option>
+            </select>
+            <br><br>
+            <div class="bttn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
