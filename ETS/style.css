@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+*{
+    font-family: 'Rozha One';
+}
+
+.header img{
+    height: 120px;
+}
+
+.header{
+    height: 120px;
+    background-color: #001d2d;
+}
+
+.footer img{
+    height: 80px;
+}
+
+.footer{
+    height: 80px;
+    background-color: #001d2d;
+}
+
+.carousel-caption{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 1pc;
+}
+
+.kartas{
+    height: 465px;
+}
+
+.berita img{
+    max-width: 100%;
+    height: auto;
+}
+
+footer .container-fluid{
+    background-color: #001d2d;
+    height: auto;
+}
+
+.sosmed a{
+    text-decoration: none;
+}
